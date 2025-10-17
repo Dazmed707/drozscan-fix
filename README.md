@@ -7,7 +7,7 @@
 ### Drozscan is just an automated script to run all drozer commands in a single run. See the results in CLI, JSON or HTML.
 ---
 
-## NOTE : Make sure you installed and configured the [drozer](https://labs.f-secure.com/tools/drozer/) tool before running the script.
+## NOTE : Make sure you installed and configured the [drozer](https://labs.f-secure.com/tools/drozer/) tool before running the script. I test in virtual-enviroment with python 3.8.10.
 ---
 
 ### PRESEQUITES
@@ -50,6 +50,6 @@
 #### Bad UI in html page, will be working on them, however tool does its job
 
 ### Inspired by interference-security
-
+### Fix for @PurpleCodeTeam (Telegram)
 # Thank YOU
 
