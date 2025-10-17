@@ -1,6 +1,18 @@
 # !/usr/bin/env python
 
-from asyncore import write
+try:
+    from asyncore import write
+except ImportError:
+    import sys
+    def write(msg):
+        s = str(msg)
+        if not s.endswith("\n"):
+            s += "\n"
+        try:
+            sys.stdout.write(s)
+        except Exception:
+            print(s, end="")
+
 import subprocess
 import threading
 import sys
@@ -38,7 +50,7 @@ def welcome():
         print ("\t| Inspiration  :  " + inspiration + "\t\t|")
         
 
-        print ("\t| VERSION :  1.0  \t\t\t\t|\n")
+        print ("\t| VERSION :  1.1-fix-for-PURPLECODETEAM  \t\t\t\t|\n")
         print ("      ------------------------------------------------------------------")
 
         print("\n\n")
