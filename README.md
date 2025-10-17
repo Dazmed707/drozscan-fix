@@ -2,7 +2,9 @@
 ### Nothing unique, just an automation
 ---
 
-![image](https://user-images.githubusercontent.com/100226024/155892663-669e4fcc-1869-4472-95f1-10bd589f987b.png)
+#![image](https://user-images.githubusercontent.com/100226024/155892663-669e4fcc-1869-4472-95f1-10bd589f987b.png)
+<img width="3342" height="1833" alt="imagen" src="https://github.com/user-attachments/assets/fb677589-5cd5-469b-818a-800289c1ecd7" />
+
 
 ### Drozscan is just an automated script to run all drozer commands in a single run. See the results in CLI, JSON or HTML.
 ---
