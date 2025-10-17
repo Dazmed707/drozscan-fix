@@ -8,7 +8,8 @@
 ### Drozscan is just an automated script to run all drozer commands in a single run. See the results in CLI, JSON or HTML.
 ---
 
-## NOTE : Make sure you installed and configured the [drozer](https://labs.f-secure.com/tools/drozer/) tool before running the script. I test in virtual-enviroment with python 3.8.10.
+## NOTE : Make sure you installed and configured the [drozer](https://labs.f-secure.com/tools/drozer/) tool before running the script. I test in virtual-enviroment with python 3.8.10. Use Python >=3.8.x. Drozer only can install with python >=3.8.x.
+Use "pip3 install drozer" first.
 ---
 
 ### PRESEQUITES
